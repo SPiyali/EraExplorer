@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time Travel on Google Maps</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <div id="controls">
+    <label for="yearSlider">Pick a Year:</label>
+    <input type="range" min="1800" max="2020" value="1920" id="yearSlider" />
+    <span id="selectedYear">1920</span>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+</html>

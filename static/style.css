@@ -1,0 +1,14 @@
+body, html { margin: 0; padding: 0; height: 100%; }
+#map { height: 90%; }
+#controls {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+input[type="range"] {
+  width: 300px;
+}
